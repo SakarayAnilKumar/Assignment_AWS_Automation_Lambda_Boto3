@@ -122,7 +122,7 @@ The Python implementation carries out automated volume discovery, snapshot creat
 1. Create the IAM Execution Role with the permissions described in Section 3.1.
 2. Create the Lambda Function, configure the function logic described in Section 4.2, and set `RETENTION_DAYS = 30`.
 3. Set Lambda function timeout to `1 minutes`.
-4. Configure an EventBridge Rule or EventBridge Schedule using the target cron expression.
+4. Configure an EventBridge Rule or EventBridge Schedule using the target cron expression(Scheduled to trigger on 21st of July at 21:45 every year)
 
 ### 5.2 Runbook & Verification Steps
 1. **Initial Execution Test (Bootstrap Phase):**
